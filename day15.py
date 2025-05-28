@@ -18,7 +18,7 @@
 # print(ayushtuple[len(ayushtuple)-2]) //6
 # print(ayushtuple[-2]) //6
 
-tuple1=(8,9,6,"rohan",9,78,56,56)
+# tuple1=(8,9,6,"rohan",9,78,56,56)
 
 # print(tuple1[-6:-2])
 # print(tuple1[len(tuple1)-6:len(tuple1)-2])
@@ -26,7 +26,20 @@ tuple1=(8,9,6,"rohan",9,78,56,56)
 # for item in tuple1:
 #     print(item)
 
-list1= list (tuple1)
-list1.append(89)
-tuple1=tuple (list1)
-print(tuple1)
+# list1= list (tuple1)
+# list1.append(89)
+# tuple1=tuple (list1)
+# print(tuple1)
+
+# tuple1=(5,78,"Ayush",5,5)
+
+# list1= list (tuple1)
+# list1.remove(78)
+
+
+# tuple1=tuple (list1)
+
+
+# tuple1.pop()
+# print(tuple1.count(5))
+# print(tuple1.index())
