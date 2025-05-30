@@ -18,13 +18,13 @@
 
 # printing a factorial
 
-def fact(number):
-    if(number==0 or number==1):
-        return 1
-    else:
-        return number*fact(number-1)
+# def fact(number):
+#     if(number==0 or number==1):
+#         return 1
+#     else:
+#         return number*fact(number-1)
 
-print("The factorial is:",fact(6))
+# print("The factorial is:",fact(6))
 
 # fibbonicci series
 
@@ -35,4 +35,40 @@ print("The factorial is:",fact(6))
 #             5*4*3*fact(2)
 #             5*4*3*2*fact(1)
 #             5*4*3*2*1=120
+
+# a = {1, 2, 3}
+# b = {2, 3, 4}
+
+# print(a | b)   # Union: {1, 2, 3, 4}
+# print(a & b)   # Intersection: {2, 3}
+# print(a - b)   # Difference: {1}
+# print(a ^ b)   # Symmetric Difference: {1, 4}
+# a.add(90)
+# print(a)
+
+
+# def myFunc(num1):
+#     num2=[8,9,6,45]
+#     try:
+#         # for i in range(1,len(num2)):
+#             # print(f"{num1}*{i} = {int(num1)*i}")
+#         print(num2[int(num1)])
+#         return 0
+
+#     except ValueError:
+#         print("Invalid value")
+#         return 1
+#     except IndexError:
+#         print("Index value")
+#         return 2
+#     finally:
+#         print("Some lines")
+# num1=input("Enter the num: ")
+# print(myFunc(num1))
+a=12
+if(a>8):
+    raise ValueError(print("erro"))
+
+
+
 
