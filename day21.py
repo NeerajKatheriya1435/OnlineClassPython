@@ -25,8 +25,14 @@ import os
 # print(os.path.isdir("Shivam23"))
 # print(os.getenv("PATH"))
 
-a=46
+# a=46
 # b=6
 # print("Shivam") if a>b else print("Ayush")
-if(a>45):
-    raise ValueError("Value is graeter tha 45")
+# if(a>45):
+#     raise ValueError("Value is graeter tha 45")
+
+# with open("./myFile.txt","r+") as f:
+#     content=f.read()
+#     print(content)
+
+

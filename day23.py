@@ -1,0 +1,11 @@
+# file=open("./ayush.txt","r")
+# content=file.read()
+# print(content)
+# file.close()
+
+f = open("data.txt","rt")
+# f.write(" Helo ayush")
+content=f.read()
+print(content)
+# print(f)
+f.close()
