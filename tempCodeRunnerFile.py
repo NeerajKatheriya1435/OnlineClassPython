@@ -1,2 +1,1 @@
-
-print(content)
+ print("Hello The sum is",(num1+num2))
