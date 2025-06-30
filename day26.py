@@ -41,7 +41,14 @@
 
 # a=[7,87,9]
 # b=[7,8,9]
-a="Suman"
-b="Suman"
-print(a is b)
-print(a == b)
+
+# a="Suman"
+# b="Suman"
+# print(a is b)
+# print(a == b)
+
+# def sum(a,b):
+#     return a+b
+sum=lambda x,y,z:x+y+z+6
+
+print(sum(5,9,4))
