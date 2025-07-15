@@ -36,6 +36,7 @@ input=5
 
 Q 5. Ring Shape
 input=5
+
    *
   ***
  *****
@@ -110,18 +111,99 @@ input=5
 # Goat=Animal()
 # Goat.showDetail()
 
-class Student:
-    def __init__(self,name,age,RollNumber):
-        self.name=name
-        self.age=age
-        self.rollNum=RollNumber
-    def showDetail(self):
-        print(f"My name is {self.name} and age is {self.age} and roll Number is {self.rollNum}")
+# class Student:
+#     def __init__(self,name,age,RollNumber):
+#         self.name=name
+#         self.age=age
+#         self.rollNum=RollNumber
+#     def showDetail(self):
+#         print(f"My name is {self.name} and age is {self.age} and roll Number is {self.rollNum}")
 
 
-Std1=Student("Ayush",22,1101)
-Std2=Student("Suman",34,1102)
+# Std1=Student("Ayush",22,1101)
+# Std2=Student("Suman",34,1102)
 
-Std1.showDetail()
-Std2.showDetail()
+# Std1.showDetail()
+# Std2.showDetail()
+
+
+# Q 5. Ring Shape
+# input=5
+
+#    *
+#   ***
+#  *****
+# *******
+#  *****
+#   ***
+#    *
+
+# n=6
+# # m=2
+# for i in range(1,n):
+#     for j in range(1,n-i):
+#         print(" ",end=" ")
+#     for k in range(1,2*i):
+#         print("*",end=" ")
+#     print()
+
+# n=n-1
+# m=n
+# for i in range(1,n+2):
+#     for k in range(1,i+1):
+#         print(" ",end=" ")
+#     for j in range(1,(2*m-2)):
+#         print("*",end=" ")
+#     print()
+#     m=m-1
+
+# n=12
+
+# for i in range(1,n):
+#     for j in range(1,n-i):
+#         print(" ",end=" ")
+#     for j in range(1,2*i):
+#         print("*",end=" ")
+#     print()
+# m=n
+# m=m-2
+# for i in range(1,n-1):
+#     for k in range(1,i+1):
+#         print(" ",end=" ")
+#     for j in range(1,(2*m)):
+#         print("*",end=" ")
+#     print()
+#     m=m-1
+    
+
+#    *
+#   ***
+#  *****
+# *******
+#  *****
+#   ***
+#    *
+
+n=12
+for i in range(1,n):
+   for j in range(n-1,i,-1):
+      print(" ",end=" ")
+   for k in range(1,2*i):
+      print("*",end=" ")
+   print()
+
+for i in range(1,n-1):
+   for j in range(1,i+1):
+      print(" ",end=" ")
+   for k in range(1,2*(n-1)-2):
+      print("*",end=" ")
+   n=n-1
+   print()
+    
+
+
+
+
+
+
 
