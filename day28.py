@@ -34,7 +34,6 @@ ayush.language="English"
 
 ayush.showDetail()
 
-
 # ramesh=Human("Ramesh",78)
 # ramesh.name1="Suresh"
 # ramesh.showDetail()
